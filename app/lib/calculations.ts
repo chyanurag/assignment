@@ -38,7 +38,7 @@ export function evaluate(inputs: LoanInputs): Evaluation {
     build(0, "prepay", "Prepay First", "🏠",
       `Put ₹${((monthlySurplus + yearlySurplus / 12 + lumpSum / 12) || 0).toLocaleString("en-IN")}/mo toward your loan`),
     build(1, "invest", "Invest It", "📈",
-      `Invest ₹${((monthlySurplus + yearlySurplus / 12 + lumpSum / 12) || 0).toLocaleString("en-IN")}/mo and let compounding grow your wealth`),
+      `Invest Rs.${((monthlySurplus + yearlySurplus / 12 + lumpSum / 12) || 0).toLocaleString("en-IN")}/mo and let compounding grow your wealth`),
     build(0.5, "balanced", "Balanced", "⚖️",
       `Split 50/50 — prepay some, invest some. Best of both worlds`),
   ];
