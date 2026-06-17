@@ -46,9 +46,12 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-gray-100 py-6">
-        <div className="max-w-5xl mx-auto px-4 text-center">
+        <div className="max-w-5xl mx-auto px-4 text-center space-y-1">
           <p className="text-xs text-gray-500">
             <span className="font-semibold">Decide</span>. Not financial advice.
+          </p>
+          <p className="text-[10px] text-gray-400">
+            Built for the internship assignment. Research-driven. Tax-aware. Made in India.
           </p>
         </div>
       </footer>
